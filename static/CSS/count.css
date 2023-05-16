@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* sidebar */
+.container-principal{
+    height: 830px;
+    background-color: #cedad5;
+}
+
+.sidebar{
+    height: 825px;
+    width: 10%;
+    overflow: hidden;
+    background-color: #cedad5;
+    float: left;
+}
+
+.img_sidebar{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+
+.img_sidebar > a{
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar_user{
+    margin-top: 30vh;
+}
+
+#sidebar_logout{
+    margin-top: 15vh;
+}
+/* right bar */
+
+.rigth-container{
+    height: 830px;
+    width: 85%;
+    float: right;
+    background-color: #cedad5;
+    overflow: hidden;
+}
+
+.rigth-blog-top{
+    height: 8vh;
+    overflow: hidden;
+    margin-top: 8vh;
+}
+.rigth-blog-top_01{
+    height: 8vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#rigth-blog-top_le{
+    width: 25%;
+}
+
+#rigth-blog-top_ri{
+    width: 30%;
+    margin-left: 90vh;
+}
+
+#rigth-blog-top_span_1 > input{
+    width: 55%;
+    border-color: rgba(214, 216, 218, 0.995);
+    border-radius: 5px;
+
+}
+#rigth-blog-top_span_2{
+    margin-left: 2vh;
+}
+
+.rigth-blog-center_01{
+    height: 25vh;
+    margin-top: 35px;
+}
+
+.credit-card{
+    height: 23vh;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #000;
+    border: 1px solid#000;
+}
+
+#credit-card_1{
+    width: 35%;
+}
+
+#credit-card_2{
+    margin-left: 50vh;
+    width: 25%;
+}
+
+
+
+
