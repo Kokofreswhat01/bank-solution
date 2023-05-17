@@ -1,20 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVERVIEW</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../static/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../../static/CSS/overviw.css">
-</head>
-<body>
-    <form action="#">
-        <section>
-            <div>
-                <div class="logo">Ka Bank</div>
+    <title>OVERVIEW</title>
+    </style>
+  </head>
+  <body>
+
+    <!--sidebar-->
+    <div class="container-principal">
+      <div class="sidebar">
+        
+        <div class="img_sidebar"><a href="#"><img src="../../static/Images/logo.png" ></div>
+        <div class="img_sidebar"><a href="#"><img src="../../static/Images/layout.png" style="height: 20px; width: 20px;"><span style="margin-left: 12px; font-size: 18px;">Overview</span></a></div>
+        <div class="img_sidebar"><a href="#"><img src="../../static/Images/account.png" style="height: 30px; width: 30px;"><span style="margin-left: 8px; font-size: 18px;">Accounts</span></a></div>
+        <div class="img_sidebar"><a href="#"><img src="../../static/Images/transaction.png" style="height: 20px; width: 20px;"><span style="margin-left: 12px; font-size: 18px;">Transaction</span></a></div>
+        <div class="img_sidebar" id="sidebar_user"><a href="#"><img src="../../static/Images/user.png" style="height: 20px; width: 20px;"><span style="margin-left: 12px; font-size: 18px;">Profile</span></a></div>
+        <div class="img_sidebar" id="sidebar_logout"><a href="#"><img src="../../static/Images/back.png" style="height: 20px; width: 20px;"><span style="margin-left: 12px; font-size: 18px;">Logout</span></a></div>
+      </div>
+      <!-- rigth blog -->
+      <div class="rigth-container">
+      <div class="rigth-blog-top">
+        <div class="rigth-blog-top_01" id="rigth-blog-top_le"><h2>Overview</h2></div>
+
+        <div class="rigth-blog-top_01" id="rigth-blog-top_ri">
+
+          <span id="rigth-blog-top_span_1"><img src="../../static/Images/search.png" style="height: 30px; width: 30px;"><input type="text" placeholder="search"></span>
+          <a href="#"><img src="../../static/Images/notification.png" style="height: 30px; width: 20px; margin-left: 25px;"></a>
+          <span id="rigth-blog-top_span_2"></span><a href="#"><img src="../../static/Images/logo.png" style="height: 40px; width: 40px; border-radius: 65px;"></a></span>
+        </div>
+
+      </div>
+      <div class="rigth-blog-center_01">
+        <!-- A Remplir -->
+        <div class="tous">
+          <div class="headers">
+            <div class="contenu_over">
+              <div class="compte">
+                <div class="h5">
+                  <h5>Accounts</h5>
+                </div>
+                <div class="main">
+                  <span class="spas">Main Account</span>
+                  <p class="p">$ 44,500.00</p>
+                </div>
+                <div class="school">
+                  <span class="spas">School Saving</span>
+                  <p class="p">$ 44,500.00</p>
+                </div>
+                <div class="hollidays">
+                  <span class="spas">Holidays</span>
+                  <p class="p">$ 44,500.00</p>
+                </div>
+                <div>
+                  <h6>Transactions</h6>
+                </div>
+              </div>
+              <div class="tab">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td data-label="Account">Danie Chou</td>
+                      <td data-label="Due Date">04/01/2016</td>
+                      <td data-label="Amount">$1,190</td>
+                    </tr>
+                    <tr>
+                      <td scope="row" data-label="Account">Danie Chou</td>
+                      <td data-label="Due Date">03/01/2016</td>
+                      <td data-label="Amount">$2,443</td>
+                    </tr>
+                    <tr>
+                      <td scope="row" data-label="Account">Danie Chou</td>
+                      <td data-label="Due Date">03/01/2016</td>
+                      <td data-label="Amount" style="background-color: red; border-radius: 10px;">$1,181</td>
+                    </tr>
+                    <tr>
+                      <td scope="row" data-label="Acount">Danie Chou</td>
+                      <td data-label="Due Date">02/01/2016</td>
+                      <td data-label="Amount">$842</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-        </section>
-    </form>
+          </div>
+        </div>
+      </div>
+      <!--Fin de a Remplir-->
+      <div class="rigth-blog-center_02"></div>
+      <div class="rigth-blog-botton"></div>
+      </div>
+    </div>
     
-</body>
+    
+  </body>
 </html>
