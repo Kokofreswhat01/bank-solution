@@ -61,7 +61,7 @@ body{
 
 #rigth-blog-top_ri{
     width: 30%;
-    margin-left: 90vh;
+    margin-left: 80vh;
 }
 
 #rigth-blog-top_span_1 > input{
@@ -83,7 +83,7 @@ body{
     height: 23vh;
     border-radius: 10px;
     display: inline-block;
-    background-color: #000;
+    background-color: #FFF;
     border: 1px solid#000;
 }
 
