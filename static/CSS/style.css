@@ -1,0 +1,106 @@
+*{
+    background-color: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 13vh;
+}
+
+.header-gauche{
+    display: flex;
+    position: absolute;
+    width: 57%;
+    height: 04vh;
+    left: 40%;
+    top: 60px;
+}
+
+.premier-gauche{
+    display: flex;
+    margin-left: 20%;
+    width: 28%;
+    height: 3vh;
+}
+
+.deuxieme-gauche{
+    display: flex;
+    margin-left: 30%;
+    width: 20%;
+    height: 3vh;
+}
+
+.conteneur{
+    width: 100%;
+
+
+}
+
+.premier-conteneur{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+
+}
+
+.conteneur-haut-droite{
+    height: 30vh;
+    width: 40%;
+
+}
+.conteneur-haut-gauche{
+    height: 30vh;
+    width: 40%;
+    margin-left: 20%;
+
+}
+
+.conteneur-haut-gauche{
+    width: 25%;
+    height: 45vh;
+    justify-content: center;
+    background-color: #D4F3E7;
+    border-radius: 20px;
+}
+
+.dans1{
+    width: 60%;
+    height: 12vh;
+    border-radius: 30px;
+    background-color: aquamarine;
+    margin: 2% 0% 0% 7%;
+}
+
+.dans2{
+    width: 60%;
+    height: 12vh;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 5% 5% 5% 20%;
+}
+
+.dans3{
+    width: 60%;
+    height: 12vh;
+    border-radius: 30px;
+    background-color: rgb(5, 120, 82);
+    margin: 2% 0% 2% 7%;
+}
+
+.vous{
+    justify-content: center;
+    margin: 10% 0% 0% 30%;
+}
+
+.vous > h1{
+    margin-bottom: 2%;
+}
