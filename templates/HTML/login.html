@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='/CSS/login.css')}}" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <title>Login</title>
+  </head>
+
+  <!------ body ------>
+  <body>
+    <div class="container">
+      <!------ left part of the view ------>
+      <div class="inner-content">
+        <div class="col" id="col-left">
+          <!------ logo ------>
+
+          <div class="logo">
+            <iconify-icon icon="arcticons:vpbank-neo"></iconify-icon>
+            <p><br><span style="color: #33B786;">ka bank</span></p>
+          </div>
+
+          <div class="left-texts">
+            <h1>Content de te revoir</h1>
+            <p>Entrez vos coordonnées pour vous reconnecter à votre tableau de bord bancaire !</p>
+          </div>
+
+          <div class="socials">
+            <span style="background-color: #33B786; color: #FFF; padding: 8px; border-radius: 17px;"><iconify-icon icon="ri:facebook-fill"></iconify-icon></span>
+            <span style="background-color: #33B786; color: #FFF; padding: 8px; border-radius: 17px;"><iconify-icon icon="ion:logo-instagram"></iconify-icon></span>
+            <span style="background-color: #33B786; color: #FFF; padding: 8px; border-radius: 17px;"><iconify-icon icon="prime:twitter"></iconify-icon></span>
+          </div>
+        </div>
+
+        <div class="col" id="col-right">
+          <div class="card">
+            <div class="in-form">
+              <h3 style="font-size: 35px; color: #33B786;">Login</h3>
+              <form action="" method="get">
+                <div class="inp">
+                  <label for="email">Email</label><br>
+                  <input type="email" name="email" id="email" placeholder="sylvestrebenie@gmail.com"/>
+                </div>
+                <div class="inp">
+                  <label for="pass">Password</label><br>
+                  <input type="password" name="pass" id="pass" placeholder="Saisir mot de passe"/>
+                </div>
+                <div class="inp">
+                    <a href="#"><input type="submit" value="Se connecter"></a>
+                </div>
+                <div class="inp">
+                  <p>Vous n'avez pas de compte ? <a href="#" style="color: #33B786;">S'inscrire</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

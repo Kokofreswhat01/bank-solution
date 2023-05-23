@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='/CSS/add_account.css')}}" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <title>Login</title>
+  </head>
+
+  <!------ body ------>
+  <body>
+    <div class="container">
+      <!------ left part of the view ------>
+      <div class="inner-content">
+
+        <div class="col">
+          <div class="card">
+            <div class="in-form">
+              <h3 style="font-size: 35px; color: #33B786;">Ajouter un compte</h3>
+              <form action="" method="get">
+                <div class="inp">
+                  <label for="nom_compte">Nom du compte</label><br>
+                  <input type="text" name="nom_compte" id="nom_compte" placeholder="votre nom"/>
+                </div>
+                <div class="inp">
+                  <label for="commentaire">Brève description</label><br>
+                  <textarea name="commentaire" id="commentaire"  placeholder="Description"></textarea>
+                </div>
+                <div class="inp">
+                    <a href="#"><input type="submit" value="Retour" id="retour"></a>
+                    <a href="#"><input type="submit" value="Ajouter" id="ajouter"></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

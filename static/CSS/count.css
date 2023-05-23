@@ -85,9 +85,11 @@ body{
     display: inline-block;
     background-color: #FFF;
     border: 1px solid#000;
+    overflow: hidden;
 }
 
 #credit-card_1{
+    background-color: #D4F3E7;
     width: 35%;
 }
 
@@ -96,6 +98,20 @@ body{
     width: 25%;
 }
 
+.carte-1{
+    height: 105px;
+    width: 35%;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid red;
+    overflow: hidden;
+    background-color: #D4F3E7;
+}
 
-
+#carte-1-gauche{
+    background-color: #D4F3E7;
+}
+#carte-1-droit{
+    margin-left: 18vh;
+}
 
