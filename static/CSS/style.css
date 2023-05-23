@@ -207,6 +207,8 @@ h5{
 
 }
 
+.milieu_carre{}
+
 .dernier-milieu{
     display: flex;
     height: 20vh;
@@ -218,11 +220,17 @@ h5{
 }
 
 
-
+.bas_im1{
+    width: 3%;
+    height: 5vh;
+    border-radius: 20px;
+    background-color: #000;
+    border: 1px solid red;
+}
 
 .point{
     width: 100%;
-    margin-left: 10%;
+    margin-right: 30%;
     
 }
 
@@ -280,15 +288,6 @@ h5{
     border-radius: 50px;
 }
 
-.milieu_im2{
-    
-}
-
-.dernier-bas{
-    display: flex;
-    height: 20vh;
-}
-
 .point5{
     display: flex;
     margin: 2% 0% 0% 50%;
@@ -300,6 +299,23 @@ h5{
     height: 0.5vh;
     margin: 2% 0% 0% 5%;
     border-radius: 50px;
+}
+
+.milieu_im2{
+    
+}
+
+
+
+.dernier-bas{
+    display: flex;
+    height: 20vh;
+}
+
+
+
+.footer{
+    margin-top: 30%;
 }
 
 .footer_grand{
