@@ -1,6 +1,16 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, url_for
+from sqlalchemy import SQLAlchemy
+from flask_login import UserMixin
 
 app = Flask(__name__)
+db = SQLAlchemy(app)
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+app.config["SECRET_KEY"] = "1306@Benie"
+
+# ============= LES MODELS ==============
+
+class User(db.Model, UserMixin):
+     pass
 
 @app.route("/index/")
 @app.route("/index/count/")
@@ -22,6 +32,12 @@ def add_count():
 @app.route("/index/withdraw/")
 def withdraw():
      return render_template('HTML/withdraw.html')
+
+@app.route("/index/information/")
+def information():
+     return 'Je suis l information'
+
+
 
 if __name__=='__main__':
      app.run(debug=True)
