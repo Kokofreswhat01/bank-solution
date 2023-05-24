@@ -47,26 +47,13 @@
           <div class="card">
             <div class="in-form">
               <h3 style="font-size: 35px; color: #33B786;">Login</h3>
-              <form action="" method="get">
-                <div class="inp">
-                    <label for="nom">Nom & prénom(s)</label><br>
-                    <input type="text" name="nom" id="nom" placeholder="Votre nom compet"/>
-                  </div>
-                <div class="inp">
-                  <label for="email">Email</label><br>
-                  <input type="email" name="email" id="email" placeholder="sylvestrebenie@gmail.com"/>
-                </div>
-                <div class="inp">
-                  <label for="pass">Password</label><br>
-                  <input type="password" name="pass" id="pass" placeholder="Saisir mot de passe"/>
-                </div>
-                <div class="inp">
-                    <a href="#"><input type="submit" value="S'inscrire"></a>
-                </div>
-                <div class="inp">
-                  <p>Vous avez déjà un compte ? <a href="{{url_for('login')}}" style="color: #33B786;">Se connecter</a></p>
-                </div>
-              </form>
+              <form method="POST" action="">
+                {{ form.hidden_tag() }}
+                {{ form.nom }}
+                {{ form.email }}
+                {{ form.mdp }}
+                {{ form.inscrire }}
+            </form>
             </div>
           </div>
         </div>
