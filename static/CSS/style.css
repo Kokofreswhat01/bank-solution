@@ -49,7 +49,6 @@ a{
     width: 100%;
     height: 45vh;
     display: flex;
-    border: 1px solid red
 
 }
 
@@ -196,18 +195,31 @@ h5{
 }
 
 .dernier{
-    height: 45vh;
-    margin-top: 8%;
-    
+    height: 65vh;
+    margin-top: 4%;
+    border: 1px solid red;  
+}
+
+.dernier-bas{
+    justify-content: center;
+}
+
+.bas_im1{
+    margin-left: 20%;
+    border: 1px solid orange;
 }
 
 
 .milieu_carre{
-    margin-left: 59%;
-    margin-top: -23%;
+    width: 60%;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+    margin: 10% 0% 0% 27%;
     background: #FFFFFF;
     box-shadow: 0px 0.5px 2px;
     border-radius: 5px;
+    border: 1px solid black;
 
 }
 
@@ -215,112 +227,109 @@ h5{
     background-image: url(../Images/backk.png);
 }
 
-.dernier-milieu{
-    display: flex;
-    height: 20vh;
-    border: 1px solid yellow;
-}
-
-.milieu_im1{
-    border: 1px solid red;
-}
-
-
-.bas_im1{
-    width: 3%;
-    height: 5vh;
-    border-radius: 20px;
-    background-color: #000;
-    border: 1px solid red;
-}
 
 .point{
-    width: 100%;
-    margin-right: 30%;
-    
+    width: 30%;
+    height: 45vh;
+    justify-content: center;
+/*   margin-right: 30%;*/
+    border: 1px solid green;
+}
+
+.point_ponit{
+    width: 60%;
+    height: 20vh;
+    margin: -12% 0% 0% 12%;
+
 }
 
 
 .point1{
     display: flex;
-    margin: 3% 0% 0% 50%;
+
 }
 
 .point11{
     background-color: #33B786;
-    width: 1
-    0.5%;
+    width: 1%;
     height: 0.5vh;
-    margin: 2% 0% 0% 5%;
+    margin: 7% 0% 0% 7%;
     border-radius: 100px;
+
 }
 
 .point2{
     display: flex;
-    margin: 2% 0% 0% 50%;
+
 }
 
 .point21{
     background-color: #33B786;
-    width: 0.5%;
+    width: 1%;
     height: 0.5vh;
-    margin: 2% 0% 0% 5%;
-    border-radius: 50px;
+    margin: 7% 0% 0% 7%;
+    border-radius: 100px;
 }
 
 .point3{
     display: flex;
-    margin: 2% 0% 0% 50%;
+
 }
 
 .point31{
     background-color: #33B786;
-    width: 0.5%;
+    width: 1%;
     height: 0.5vh;
-    margin: 2% 0% 0% 5%;
-    border-radius: 50px;
+    margin: 7% 0% 0% 7%;
+    border-radius: 100px;
 }
 
 .point4{
     display: flex;
-    margin: 2% 0% 0% 50%;
+
 }
 
 .point41{
     background-color: #33B786;
-    width: 0.5%;
+    width: 1%;
     height: 0.5vh;
-    margin: 2% 0% 0% 5%;
-    border-radius: 50px;
+    margin: 7% 0% 0% 7%;
+    border-radius: 100px;
 }
 
 .point5{
     display: flex;
-    margin: 2% 0% 0% 50%;
+
 }
 
 .point51{
     background-color: #33B786;
-    width: 0.5%;
+    width: 1%;
     height: 0.5vh;
-    margin: 2% 0% 0% 5%;
-    border-radius: 50px;
+    margin: 7% 0% 0% 7%;
+    border-radius: 100px;
 }
 
 
 .dernier-bas{
     display: flex;
-    height: 20vh;
-    border: 1px solid red;
 }
 
+.bas_im2{
+    border: 1px solid orange;
+    width: 30%;
+}
+
+.footer{
+    border: 1px solid red;
+}
 
 .footer_grand{
     position: absolute;
     width: 100%;
     height: 45vh;
     left: 0px;
-    margin-top: 20%;
+    margin-top: 10%;
     background-color: #1F5357;
 }
 
@@ -329,7 +338,7 @@ h5{
     width: 50%;
     height: 30vh;
     left: 370px;
-    margin-top: 13%;
+    margin-top: 3%;
 
     background-color: #33B786
     ;
