@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D4F3E7;
+
+
+}
+.inner-content{
+    display: flex;
+    width: 60%;
+    height: 80%;
+    margin-top: 65px;
+    align-items: center;
+    justify-content: center;
+}
+.col{
+    display: inline-block;
+    height: 90%;
+    width: 80%;
+}
+#col-left{
+    width: 50%;
+}
+
+#col-right{
+    width: 40%;
+    margin-left: 3rem;
+}
+.logo{
+    display: flex;
+    font-size: 3vw;
+}
+.logo iconify-icon{
+    font-size: 5vw;
+    color: #33B786;
+}
+.left-texts{
+    margin-top: 10vh;
+    margin-left: 5vh;
+    text-align: center;
+}
+.left-texts > h1{
+    font-size: 45px;
+}
+.left-texts > p{
+    margin-top: 3vw;
+    font-size: 25px;
+}
+.socials{
+    margin-top: 15vh;
+    margin-left: 10vh;
+
+}
+#col-right{
+    background-color: #FFF;
+    border-radius: 15px;
+}
+.card{
+    height: 100%;
+}
+.in-form {
+    height: 100%;
+
+}
+.in-form > h3{
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.inp{
+    margin-top: 45px;
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+input[type=email], input[type=password]{
+    height: 45px;
+    width: 80%;
+    border-radius: 8px;
+    transition: width 0.4s ease-in-out;
+}
+#email::placeholder{
+    color: hsl(158, 4%, 62%);
+    text-align: 15px;
+}
+
+#password::placeholder{
+    color: hsl(158, 4%, 62%);;
+}
+
+input[type=submit]{
+    height: 45px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    background-color: #33B786;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

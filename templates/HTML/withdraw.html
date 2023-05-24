@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='/CSS/withdraw.css')}}" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <title>Login</title>
+  </head>
+
+  <!------ body ------>
+  <body>
+    <div class="container">
+      <!------ left part of the view ------>
+      <div class="inner-content">
+
+        <div class="col">
+          <div class="card">
+            <div class="in-form">
+              <h3 style="font-size: 35px; color: #33B786;">Retrait</h3>
+              <form action="" method="get">
+                <div class="inp">
+                  <label for="nom_compte">Montant</label><br>
+                  <input type="text" name="nom_compte" id="nom_compte" placeholder="100.000"/>
+                </div>
+                <div class="inp">
+                  <label for="nom_compte">Numéro de compte</label><br>
+                  <input type="text" name="nom_compte" id="nom_compte" placeholder="0000000000"/>
+                </div>
+                <div class="inp">
+                  <label for="nom_compte">Nom du compte</label><br>
+                  <input type="text" name="nom_compte" id="nom_compte" placeholder="Saisir nom du compte"/>
+                </div>
+                <div class="inp">
+                  <select name="pets" id="pet-select">
+                    <option value="">--------Veuillez choisir une option--------</option>
+                    <option value="BANK OF AFRICA">BANK OF AFRICA</option>
+                    <option value="CITIBANK CI">CITIBANK CI</option>
+                    <option value="SOCIETE IVOIRIENNE DE BANQUE">SOCIETE IVOIRIENNE DE BANQUE</option>
+                    <option value="NSIA BANQUE CI">NSIA BANQUE CI</option>
+                    <option value="BICICI">BICICI</option>
+                  </select>
+                </div>
+                <div class="inp">
+                    <a href="#"><input type="submit" value="Retour" id="retour"></a>
+                    <a href="#"><input type="submit" value="Retrait" id="retrait"></a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
