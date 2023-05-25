@@ -5,6 +5,8 @@ from wtforms import StringField, PasswordField, SubmitField, EmailField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
 
+from flask import Flask, render_template
+
 
 app = Flask(__name__)
 db = SQLAlchemy(app)
