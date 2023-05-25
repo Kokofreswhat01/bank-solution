@@ -6,12 +6,12 @@ from wtforms import StringField, PasswordField, SubmitField, EmailField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
 
-
 app = Flask(__name__)
-db = SQLAlchemy(app)
+
 bcrypt = Bcrypt(app)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
+app.config["SQLALCHEMY_DATABASE_URL"] = "sqlite:///database.db"
 app.config["SECRET_KEY"] = "1306@Benie"
+db = SQLAlchemy(app)
 
 @app.route("/index/")
 @app.route("/index/")
@@ -22,11 +22,11 @@ def index():
 
 class User(db.Model, UserMixin):
      id = db.Column(db.Integer, primary_key=True)
-     nom = db.Column(db.String(30),unique=True, nullable=True)
-     email = db.Column(db.String(30),unique=True)
-     mdp = db.Column(db.String(30),unique=True, nullable=True)
+     nom = db.Column(db.String(30), unique=True, nullable=True)
+     email = db.Column(db.String(30), unique=True)
+     mdp = db.Column(db.String(30), unique=True, nullable=True)
 
-# =========================================
+# ==================== CLASSE INSCRIPTION =====================
 
 class RegisterForm(FlaskForm):
      nom = StringField(validators=[
@@ -69,7 +69,7 @@ def overview():
 def transaction():
      return render_template('HTML/transaction.html')
 
-#==================================================
+#====================== SE CONNECTER ============================
 @app.route("/index/login/", methods=['GET', 'POST'])
 def login():
      form = LoginForm()
@@ -81,25 +81,25 @@ def login():
                     return redirect(url_for('dashboard'))
      return render_template('login.html', form=form)
 
-# ================================================================
+# ============================ INSCRIPTION ====================================
 
 @app.route("/index/register/")
 def register():
      return render_template('HTML/register.html')
 
-# ================================================================
+# =============================AJOUT COMPTE===================================
 
 @app.route("/index/add_account/")
 def add_count():
      return render_template('HTML/add_account.html')
 
-# =================================================================
+# ============================ RETRAIT =====================================
 
 @app.route("/index/withdraw/")
 def withdraw():
      return render_template('HTML/withdraw.html')
 
-# =================================================================
+# ============================== INFORMATION ===================================
 @app.route("/index/information/")
 def information():
      return 'Je suis l information'
